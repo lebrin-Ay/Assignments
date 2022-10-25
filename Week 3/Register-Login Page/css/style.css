@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F8F8;
+    color: #222;
+    font-size: 13px;
+    font-family: Poppins;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 602px;
+    background-color: #ffff;
+    margin-top: 15px;
+    padding: 3.5rem;
+    border-radius: 15px;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    width: 367px;
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    width: 300px;
+    border: none; 
+    outline-color: #999999;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    padding: 7px;
+}
+
+select {
+    margin-left: .5rem;
+    border: none;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1.5rem;
+}
+
+input[type="date"] {
+    margin-left: .5rem;
+    border-bottom: 1px solid #999999;
+}
+
+.agree-statement {
+    font-weight: lighter;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.agree-check {
+    margin-bottom: 1.5rem;
+}
+
+input[type="color"] {
+    margin-left: .5rem;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.input-focus:focus {
+    border-color: transparent;
+    margin-left: .6rem;
+    cursor: auto;
+    outline: none;
+    border-bottom: 1px solid #999999;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+/* .input-focus:focus-within {
+    font-weight: bold;
+} */
+
+.btn-register {
+    background-color: #48a7ff;
+    color: #fff;
+    border: none;
+    width: 131px;
+    height: 50px;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-register:hover {
+    cursor: pointer;
+    background-color: #4292DC;
+    transform: scale(1.1);
+}
+
+/* Right side */
+.img-container {
+    margin-left: 6rem;
+}
+
+img {
+    width: 350px;
+}
+
+.member a {
+    color: #222222;
+    text-decoration: none;
+
+}
+
+.member a:hover {
+    color: #4292DC;
+    
+}
+
+.member {
+    margin-top: 7rem;
+    margin-left: 5.5rem;
+}

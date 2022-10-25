@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    max-width: 62vw;
+    height: 66.5vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.svg-icon {
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 95%);
+}
+
+.description {
+    width: 14vw;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: .85rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 1;
+}
+
+.btn {
+    margin-top: 5rem;
+    width: 9.5vw;
+    padding: 13px;
+    border-radius: 20px;   
+    border: none;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.sedan-card {
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedan-card .btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedan-card .btn:hover {
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suv-card {
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv-card .btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.suv-card .btn:hover {
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury-card {
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury-card .btn {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury-card .btn:hover {
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* footer design */
+.grid-link {
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-link a {
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+
+.grid-link a:hover {
+    color: hsl(31, 77%, 52%);
+}
+
+
+/* Responsiveness for screen size 1440px */
+@media screen and (min-width:1440px) {
+    .container {
+        height: 55vh;
+    }
+}
+
+/* Mobile: 375px */
+@media screen and (max-width:375px) {
+    .container {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+        width: 80vw;
+        border-radius: 0;
+    }
+
+    .svg-icon {
+        margin-bottom: 1rem;
+    }
+    
+    .title {
+        margin-bottom: 1.5rem;
+        color: hsl(0, 0%, 95%);
+    }
+    
+    .description {
+        width: 55vw;
+        font-size: .75rem;
+    }
+
+    .sedan-card {
+        padding: 30px;
+        background-color: hsl(31, 77%, 52%);
+    }
+
+    .sedan-card {
+        padding: 30px;
+        background-color: hsl(31, 77%, 52%);
+    }
+    
+    .suv-card {
+        padding: 30px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    
+    
+    .luxury-card {
+        padding: 30px;
+        background-color: hsl(179, 100%, 13%);
+    }
+
+    .btn {
+        margin-top: 1rem;
+        width: 40vw;
+        padding: 10px;
+    }
+
+}
+
+
