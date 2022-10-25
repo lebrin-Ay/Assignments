@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <script src="https://kit.fontawesome.com/46e4ea4a23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    
+    <header></header>
+
+    <main>
+      
+      <div class="container">
+        <div class="left-container">
+          <h1 class="title">Sign Up</h1>
+
+          <form action="./login.html" class="form-signup">
+            <div class="form-group">
+                <label for="">
+                    <i class="fa-solid fa-user fa-xs"></i>
+                </label>
+              <input type="text" name="fname" class="input-focus" id="" placeholder="First Name" class="input" required/>
+    
+            </div>
+            <div class="form-group">
+                <label for="">
+                    <i class="fa-solid fa-user fa-xs"></i>
+                </label>
+              <input type="text" class="input-focus" name="lname" id="" placeholder="Last Name"  required/>
+            </div>
+            <div class="form-group">
+                <label for="">
+                    <i class="fa-solid fa-mobile fa-xs" class="icon"></i>
+                </label>
+              <input type="text" name="phone-number" class="input-focus" id="" placeholder="Phone Number" required/>
+            </div>
+            <div class="form-group">
+                <label for="">
+            <i class="fa-solid fa-envelope fa-xs"></i>
+                </label>
+                <input type="email" name="email" class="input-focus" id="" placeholder="Email" required/>
+            </div>
+            <div>
+                <label for="">
+                    <i class="fa-solid fa-person-half-dress" class="icon"></i>
+                </label>
+              <select name="gender" required>
+                <option value="" disabled selected hidden>Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="">
+                    <i class="fa-solid fa-calendar-days fa-xs"></i>
+                </label>
+                <input type="date" name="d.o.b" class="input-focus" id="" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Date of Birth">
+            </div>
+            <div class="form-color">
+                <label for="color" class="color">Favorite Color:</label>
+                <input type="color" name="color" id="" placeholder="Favorite color">
+            </div>
+            <div class="agree-check">
+                <input type="checkbox" name="agree" id="" required="required">
+                <label value="agree" class="agree-statement">I agree all statements in <a href="#">Terms of services</a></label>
+            </div>
+
+            <button class="btn-register">Register</button>
+          </form>
+
+        </div>
+
+        <!-- Right side   -->
+        <section>
+            <div class="img-container">
+                <img src="./images/signup-image.jpg" alt="">
+
+                <div class="member">
+                    <p><a href="./login.html">I am already a member</a></p>
+                </div>
+            </div>
+        </section>
+
+
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
